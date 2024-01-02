@@ -54,13 +54,6 @@
 
 */
 
-// PASSO 1: Crie uma função `createMenu()` que, recebendo um objeto como parâmetro, retorna esse objeto no seguinte formato: 
-//  { fetchMenu: () => objetoPassadoPorParametro }.
-//
-// Agora faça o TESTE 4 no arquivo `tests/restaurant.spec.js`.
-
-//------------------------------------------------------------------------------------------
-
 // PASSO 2: Adicione ao objeto retornado por `createMenu()` uma chave de nome `consumption` que, como valor inicial, tem um array vazio.
 //
 // Agora faça o TESTE 5 no arquivo `tests/restaurant.spec.js`.
@@ -93,6 +86,15 @@
 // - retornará o valor somado acrescido de 10%.
 // DICA: para isso, você precisará percorrer tanto o objeto da chave `food` quanto o objeto da chave `drink`.
 
-const createMenu = () => {};
+const createMenu = (restaurant) => {
+  // PASSO 1: Crie uma função `createMenu()` que, recebendo um objeto como parâmetro, retorna esse objeto no seguinte formato: 
+  //  { fetchMenu: () => objetoPassadoPorParametro }.
+  //
+  
+  // Agora faça o TESTE 4 no arquivo `tests/restaurant.spec.js`.
+
+  //------------------------------------------------------------------------------------------
+
+};
 
 module.exports = createMenu;
